@@ -1,0 +1,166 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+  text-align: center;
+  background-color: black;
+}
+
+/*header*/
+
+.header {
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: solid seashell 1px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+
+.header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+
+.header a {
+  color: seashell;
+  margin-right: 20px;
+}
+
+/*main content*/
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*mission statement*/
+
+.mission {
+  margin-top: 70px;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../resources/images/main-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission h2 {
+  background-color: black;
+  margin: 0px;
+  padding: 10px;
+  width: 1200px;
+  padding: 10px;
+}
+
+.mission h4 {
+  background-color: black;
+  margin: 0px;
+  padding: 10px;
+  width: 1200px;
+}
+
+
+/*Tea of the Month*/
+
+.teaofmonth {
+  width: 1000px;
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teaofmonth h2 {
+  width: 1000px;
+  margin: 0px;
+}
+
+.teaofmonth h4 {
+  width: 1000px
+}
+
+.teaofmonth img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+}
+
+.tea span {
+  margin: 5px;
+}
+
+
+/*Locations*/
+
+
+.locations {
+  background-image: url(../resources/images/locations.jpg);
+  margin-top: 70px;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.locations h2 {
+  width: 1200px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.store {
+  background-color: black;
+  height: 275px;
+  width: 300px;
+  margin: 5px 20px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.store h3 {
+  margin: 0px;
+  padding: 10px;
+}
+
+
+/*footer*/
+
+.footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer h2 {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.footer h5 {
+  margin: 15px 0px;
+}
+
+.copyright {
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
